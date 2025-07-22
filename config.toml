@@ -6,6 +6,10 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
+[Twitter]
+apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
+included-patches = "'Open links with app chooser'"
+
 [YouTube]
 enabled = false
 build-mode = "both"
