@@ -6,10 +6,6 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
-[Twitter]
-apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
-included-patches = "'Open links with app chooser'"
-
 [YouTube]
 enabled = false
 build-mode = "both"
@@ -33,6 +29,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
+patches-version = "v5.8.1-dev.2"
 rv-brand = "ReVanced Extended"
 build-mode = "module"
 arch = "both"
@@ -41,6 +38,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 [YouTube-Extended]
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
+patches-version = "v5.8.1-dev.2"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "module"
