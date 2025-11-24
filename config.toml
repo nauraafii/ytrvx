@@ -26,7 +26,6 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 
 # https://github.com/j-hc/revanced-magisk-module/issues/554
 [Music-Extended]
-enabled = false
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
@@ -36,7 +35,6 @@ arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 
 [YouTube-Extended]
-enabled = false
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
