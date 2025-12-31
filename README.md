@@ -1,4 +1,4 @@
-# ReVanced Kernelsu Module
+# ReVanced Extended Kernelsu Module
 
 Extensive ReVanced builder  
 
