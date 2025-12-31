@@ -36,6 +36,21 @@ Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is schedu
 
 also see here [`CONFIG.md`](./CONFIG.md)
 
+## Syncing with Upstream
+
+This repository is a fork of [j-hc/revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module). To keep it synchronized with the latest upstream changes:
+
+```bash
+# The upstream remote is already configured
+git fetch upstream
+
+# Merge upstream changes into your branch
+git merge upstream/main --allow-unrelated-histories
+
+# Resolve any conflicts, then push
+git push origin <your-branch>
+```
+
 ## Building Locally
 ### On Termux
 ```console
