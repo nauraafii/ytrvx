@@ -660,7 +660,7 @@ module_prop() {
 name=${2}
 version=v${3}
 versionCode=${NEXT_VER_CODE}
-author=j-hc
+author=nauraafii
 description=${4}" >"${6}/module.prop"
 
 	if [ "$ENABLE_KERNELSU_UPDATE" = true ]; then echo "updateJson=${5}" >>"${6}/module.prop"; fi
