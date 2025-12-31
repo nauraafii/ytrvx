@@ -1,26 +1,26 @@
 # ReVanced Extended Kernelsu Module
 [![CI](https://github.com/j-hc/revanced-magisk-module/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/j-hc/revanced-magisk-module/actions/workflows/ci.yml)
 
-Extensive ReVanced builder  
+Extensive ReVanced Extended builder  
 
-Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music from Play Store if you are using magisk modules. 
+Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music from Play Store if you are using kernelsu modules. 
 
 <details><summary><big>Features</big></summary>
 <ul>
  <li>Support all present and future ReVanced and <a href="https://github.com/inotia00/revanced-patches">ReVanced Extended</a> apps</li>
- <li> Can build Magisk modules and non-root APKs</li>
+ <li> Can build KernelSU modules and non-root APKs</li>
  <li> Updated daily with the latest versions of apps and patches</li>
  <li> Optimize APKs and modules for size</li>
  <li> Modules</li>
     <ul>
      <li> recompile invalidated odex for faster usage</li>
-     <li> receive updates from Magisk app</li>
+     <li> receive updates from KernelSU app</li>
      <li> do not break safetynet or trigger root detections</li>
      <li> handle installation of the correct version of the stock app and all that</li>
-     <li> support Magisk and KernelSU</li>
+     <li> support KernelSU</li>
     </ul>
 </ul>
-Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is scheduled to build the modules and APKs everyday using GitHub Actions if there is a change in ReVanced patches. You may want to disable it.
+Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is scheduled to build the modules and APKs everyday using GitHub Actions if there is a change in ReVanced Extended patches. You may want to disable it.
 </details>
 
 ## To include/exclude patches or patch other apps

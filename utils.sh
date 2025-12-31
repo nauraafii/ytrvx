@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-MODULE_TEMPLATE_DIR="revanced-magisk"
+MODULE_TEMPLATE_DIR="revanced-kernelsu"
 CWD=$(pwd)
 TEMP_DIR="temp"
 BIN_DIR="bin"
@@ -626,11 +626,11 @@ build_rv() {
 			"${args[module_prop_name]}" \
 			"${app_name} ${args[rv_brand]}" \
 			"${version} (patches ${rv_patches_ver%%.rvp})" \
-			"${app_name} ${args[rv_brand]} Magisk module" \
+			"${app_name} ${args[rv_brand]} KernelSU module" \
 			"https://raw.githubusercontent.com/${GITHUB_REPOSITORY-}/update/${upj}" \
 			"$base_template"
 
-		local module_output="${app_name_l}-${rv_brand_f}-magisk-v${version_f}-${arch_f}.zip"
+		local module_output="${app_name_l}-${rv_brand_f}-kernelsu-v${version_f}-${arch_f}.zip"
 		pr "Packing module ${table}"
 		cp -f "$patched_apk" "${base_template}/base.apk"
 		if [ "${args[include_stock]}" = true ]; then cp -f "$stock_apk" "${base_template}/${pkg_name}.apk"; fi
@@ -663,5 +663,5 @@ versionCode=${NEXT_VER_CODE}
 author=j-hc
 description=${4}" >"${6}/module.prop"
 
-	if [ "$ENABLE_MAGISK_UPDATE" = true ]; then echo "updateJson=${5}" >>"${6}/module.prop"; fi
+	if [ "$ENABLE_KERNELSU_UPDATE" = true ]; then echo "updateJson=${5}" >>"${6}/module.prop"; fi
 }
