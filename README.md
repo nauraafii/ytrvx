@@ -23,6 +23,10 @@ Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube
 Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is scheduled to build the modules and APKs everyday using GitHub Actions if there is a change in ReVanced Extended patches. You may want to disable it.
 </details>
 
+## Important Notice
+
+**This project is currently using [Morphe patches](https://github.com/MorpheApp/morphe-patches).** Due to the ReVanced Extended patches not being up-to-date, there is a possibility that the extended variant may not be available in the future. We recommend using the Morphe-based builds which are actively maintained and configured in this repository.
+
 ## To include/exclude patches or patch other apps
 
  * Use the repo as a [template](https://github.com/new?template_name=revanced-magisk-module&template_owner=j-hc)
