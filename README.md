@@ -1,5 +1,5 @@
-# Morpe Magisk/KSU Module
-Extensive Morphe builder  
+# YTRVX - YouTube Morphe Extended
+My personal build of YouTube ReVanced using Morphe patches.
 
 Get the [latest CI release](https://github.com/nauraafii/ytrvx/releases).
 
@@ -7,10 +7,9 @@ Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach the app
 
 <details><summary><big>Features</big></summary>
 <ul>
- <li>Support all present and future ReVanced and <a href="https://github.com/inotia00/revanced-patches">ReVanced Extended</a> apps</li>
- <li> Can build Magisk/KSU modules and non-root APKs</li>
- <li> Updated daily with the latest versions of apps and patches</li>
- <li> Optimize APKs and modules for size</li>
+ <li> Using **MorpheApp** patches.</li>
+ <li> Updated with the latest versions of apps and patches</li>
+ <li> Optimize modules for size (Currently only builf module only)</li>
  <li> Modules</li>
     <ul>
      <li> recompile invalidated odex for faster usage</li>
@@ -21,25 +20,6 @@ Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach the app
     </ul>
 </ul>
 
-## To include/exclude patches or patch other apps
-
- * Star the repo :eyes:
- * Use the repo as a [template](https://github.com/new?template_name=revanced-magisk-module&template_owner=j-hc)
- * Customize [`config.toml`](./config.toml) using [rvmm-config-gen](https://j-hc.github.io/rvmm-config-gen/)
- * Run the build [workflow](../../actions/workflows/build.yml)
- * Grab your modules and APKs from [releases](../../releases)
-
-also see here [`CONFIG.md`](./CONFIG.md)
-
-## Building Locally
-### On Termux
-```console
-bash <(curl -sSf https://raw.githubusercontent.com/j-hc/revanced-magisk-module/main/build-termux.sh)
-```
-
-### On Desktop
-```console
-$ git clone https://github.com/j-hc/revanced-magisk-module
-$ cd revanced-magisk-module
-$ ./build.sh
-```
+## Credits
+- Base module by [j-hc](https://github.com/j-hc/revanced-magisk-module)
+- Patches by [MorpheApp](https://github.com/MorpheApp)
