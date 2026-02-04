@@ -5,7 +5,7 @@ Get the [latest CI release](https://github.com/nauraafii/ytrvx/releases).
 
 Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach the app from Play Store if you are using magisk/KSU modules. 
 
-<details><summary><big>Features</big></summary>
+<summary><big>Features</big></summary>
 <ul>
  <li> Using MorpheApp patches.</li>
  <li> Updated with the latest versions of apps and patches</li>
@@ -19,7 +19,6 @@ Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach the app
      <li> support Magisk, KSU, etc.</li>
     </ul>
 </ul>
-<details>
 
 ## Credits
 - Base module by [j-hc](https://github.com/j-hc/revanced-magisk-module)
