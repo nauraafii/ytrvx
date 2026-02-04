@@ -1,4 +1,6 @@
 # YTRVX - YouTube Morphe Extended
+![Build Status](https://github.com/nauraafii/ytrvx/actions/workflows/main.yml/badge.svg)
+
 My personal build of YouTube ReVanced using Morphe patches.
 
 Get the [latest CI release](https://github.com/nauraafii/ytrvx/releases).
