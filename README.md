@@ -7,7 +7,7 @@ Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach the app
 
 <details><summary><big>Features</big></summary>
 <ul>
- <li> Using **MorpheApp** patches.</li>
+ <li> Using MorpheApp patches.</li>
  <li> Updated with the latest versions of apps and patches</li>
  <li> Optimize modules for size (Currently only builf module only)</li>
  <li> Modules</li>
@@ -19,6 +19,7 @@ Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach the app
      <li> support Magisk, KSU, etc.</li>
     </ul>
 </ul>
+<details>
 
 ## Credits
 - Base module by [j-hc](https://github.com/j-hc/revanced-magisk-module)
