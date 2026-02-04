@@ -9,7 +9,7 @@ Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach the app
 <ul>
  <li> Using MorpheApp patches.</li>
  <li> Updated with the latest versions of apps and patches</li>
- <li> Optimize modules for size (Currently only builf module only)</li>
+ <li> Optimize apks & modules for size</li>
  <li> Modules</li>
     <ul>
      <li> recompile invalidated odex for faster usage</li>
