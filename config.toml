@@ -9,7 +9,7 @@ parallel-jobs = 1
 [YouTube]
 build-mode = "both"
 rv-brand = "YTRVX"
-version = 20.40.45
+version = "20.40.45"
 module-prop-name = "ytrvx-morphe"
 module-prop-author = "nauraafii"
 patches-source = "MorpheApp/morphe-patches"
