@@ -19,6 +19,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 
 [Music]
 arch = "arm64-v8a"
+rv-brand = "YTMVX"
 version = "8.10.52"
 build-mode = "both"
 module-prop-name = "ytmrvx-morphe"
